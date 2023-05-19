@@ -37,7 +37,7 @@ class UwUCodec(Codec):
                 string = ""
 
     def encode(self, string: str, errors: str = "strict") -> Tuple[bytes, int]:
-        return b"".join(encode_table[x] for x in string), len(string)
+        return b"".join(encode_table[x] for x in str(string)), len(string)
 
     def decode(self, bytes: bytes, errors: str = "strict") -> tuple[str, int]:
         return "".join(x for x in self.__uwu_splitter_gen__(bytes)), len(bytes)

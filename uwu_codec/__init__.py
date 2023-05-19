@@ -20,5 +20,4 @@ def enable():
     codecs.register(lambda _: codecs.CodecInfo(codec.encode, codec.decode, name = "UwU"))
     codecs.register(lambda _: codecs.CodecInfo(codec.encode, codec.decode, name = "uwu"))
 
-__version__: Final[str] = "1.0"
-
+__version__: Final[str] = "1.1"
