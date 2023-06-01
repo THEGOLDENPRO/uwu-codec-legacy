@@ -12,12 +12,31 @@ if TYPE_CHECKING:
 
 
 from .codec import UwUCodec
-
+from .stream_writer import UwUStreamWriter
+from .stream_reader import UwUStreamReader
 
 def enable():
     """🟢 Enable the UwUCodec."""
     codec = UwUCodec()
-    codecs.register(lambda _: codecs.CodecInfo(codec.encode, codec.decode, name = "UwU"))
-    codecs.register(lambda _: codecs.CodecInfo(codec.encode, codec.decode, name = "uwu"))
 
-__version__: Final[str] = "1.1"
+    codecs.register(
+        lambda _: codecs.CodecInfo(
+            codec.encode, 
+            codec.decode, 
+            name = "uwu", 
+            streamwriter = UwUStreamWriter, 
+            streamreader = UwUStreamReader,
+        )
+    )
+
+    codecs.register(
+        lambda _: codecs.CodecInfo(
+            codec.encode, 
+            codec.decode, 
+            name = "UwU", 
+            streamwriter = UwUStreamWriter, 
+            streamreader = UwUStreamReader
+        )
+    )
+
+__version__: Final[str] = "1.2"
