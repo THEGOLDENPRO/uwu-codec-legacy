@@ -4,8 +4,8 @@
   
   <sub>Have you ever wanted to encode your shit into UwU Bytes, well now you can.</sub>
   
-  [![Pypi Badge](https://img.shields.io/pypi/v/uwu-codec?style=flat)](https://pypi.org/project/devgoldyutils "We're on pypi!")
-  [![Python Badge](https://img.shields.io/pypi/pyversions/uwu-codec?style=flat)](https://pypi.org/project/devgoldyutils "Supported python versions.")
+  [![Pypi Badge](https://img.shields.io/pypi/v/uwu-codec?style=flat)](https://pypi.org/project/uwu-codec "We're on pypi!")
+  [![Python Badge](https://img.shields.io/pypi/pyversions/uwu-codec?style=flat)](https://pypi.org/project/uwu-codec "Supported python versions.")
   
 </div>
 
