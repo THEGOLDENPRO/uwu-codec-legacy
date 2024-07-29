@@ -11,6 +11,11 @@
 
 > #### ❗ *btw this project is kind of a work in progress so don't expect much but if you want something added just open an issue.*
 
+# 🦀 This is being rewritten in Rust!
+I'm wewwiting uwu-codec in rust because i think the rust pwogwamming wanguage bettew awigns with the uwu.
+
+**Rust RW: https://github.com/THEGOLDENPRO/uwu-codec**
+
 ## 🛠 *Install/Usage*
 1. **Install package from pypi.**
 ```sh
